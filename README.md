@@ -35,7 +35,7 @@ ROS 2 Jazzy
 ## Repository Structure
 
 ```text
-4ZE-Driverless/
+ros2/
 │
 ├── .devcontainer/
 │   └── devcontainer.json
@@ -128,7 +128,7 @@ git clone <REPOSITORY_URL>
 
 Enter the repository:
 ```bash
-cd 4ZE-Driverless
+cd ros2
 ```
 
 ---
