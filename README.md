@@ -46,7 +46,7 @@ ros2/
 │
 ├── mockup_ws/
 │   └── src/
-│       └── 4ze_vehicle_description/
+│       └── fourze_vehicle_description/
 │
 ├── driverless_ws/
 │   └── src/
@@ -302,7 +302,7 @@ source install/setup.bash
 
 Run:
 ```bash
-ros2 launch 4ze_vehicle_description display.launch.py
+ros2 launch fourze_vehicle_description display.launch.py
 ```
 
 RViz should open and display the vehicle mockup.
@@ -441,7 +441,7 @@ source install/setup.bash
 ```bash
 cd /mockup_ws
 source install/setup.bash
-ros2 launch 4ze_vehicle_description display.launch.py
+ros2 launch fourze_vehicle_description display.launch.py
 ```
 
 ### Verify the environment
@@ -502,7 +502,7 @@ A new development machine is considered ready when the following are working:
 [✓] Colcon
 [✓] /driverless_ws
 [✓] /mockup_ws
-[✓] 4ze_vehicle_description
+[✓] fourze_vehicle_description
 [✓] RViz
 [✓] Gazebo
 [✓] Environment verification script
@@ -512,7 +512,7 @@ The final practical test is:
 ```bash
 cd /mockup_ws
 source install/setup.bash
-ros2 launch 4ze_vehicle_description display.launch.py
+ros2 launch fourze_vehicle_description display.launch.py
 ```
 
 If the vehicle appears correctly in RViz, the ROS 2 development environment is ready for Driverless development.
